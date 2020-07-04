@@ -1,0 +1,3 @@
+title SPA new note
+Client->Server: POST /spa_new_note (AJAX)
+Server-->Client:  201 created

@@ -1,0 +1,11 @@
+title new note
+Client->Server: POST REQUEST to /new_note
+Server-->Client:  302 - redirect
+Client -> Server: GET /notes
+Server --> Client: HTML code (200)
+Client -> Server: GET /main.css
+Server --> Client: CSS code (200)
+Client -> Server: GET /main.js
+Server --> Client: JS code (200)
+Client -> Server: GET /data.json (AJAX)
+Server --> Client: JSON data (200) 

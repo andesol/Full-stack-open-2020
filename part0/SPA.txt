@@ -1,0 +1,9 @@
+title SPA
+Client->Server: GET /spa
+Server-->Client:  HTML code 200
+Client -> Server: GET /main.css
+Server --> Client: CSS code (200)
+Client -> Server: GET /main.js
+Server --> Client: JS code (200)
+Client -> Server: GET /data.json (AJAX)
+Server --> Client: JSON data (200)
